@@ -50,11 +50,11 @@ public class Service {
         for (int i = 0; i < arrayList.size(); i++) {
             if (arrayList.get(i).getId() == id) {
                 System.out.println("Nhap ten xe");
-                String name = scanner.nextLine();
+                arrayList.get(i).setName(scanner.nextLine());
                 System.out.println("Nhap mau");
-                String color = scanner.nextLine();
+               arrayList.get(i).setColor(scanner.nextLine());
                 System.out.println("nhap noi san xuat");
-                String madeIn = scanner.nextLine();
+                arrayList.get(i).setMadeIn(scanner.nextLine());
             }
         }
         display();
