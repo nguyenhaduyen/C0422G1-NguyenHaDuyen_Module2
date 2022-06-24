@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class StringAscending {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Character> arrayList = new ArrayList<>();
         System.out.println("Nhap chuoi");
         String string = scanner.nextLine();
         LinkedList <Character> list = new LinkedList<>();
