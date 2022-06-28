@@ -20,6 +20,7 @@ public class ReadAndWrite1 {
             while ((str = bufferedReader.readLine())!=null) {
                 countries.add(str);
             }
+
             bufferedReader.close();
         }catch (IOException e) {
             e.printStackTrace();
